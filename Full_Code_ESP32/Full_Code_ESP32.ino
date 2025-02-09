@@ -1,11 +1,10 @@
 
-/* Get this code from Blynk's dashboard
 #define BLYNK_TEMPLATE_ID           "TMPL6Jwp3nNpe"
 #define BLYNK_TEMPLATE_NAME         "ISPO"
 #define BLYNK_AUTH_TOKEN            "rV98KC5X3fSip9v-gp8VLr0kFCHCLA2Y"
 
 #define BLYNK_PRINT Serial
-*/
+
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -17,8 +16,6 @@
 #define NUM_CLASSES 22  // Number of crop types
 #include <Adafruit_SSD1306.h> // Memanggil Library OLED SSD1306
 const int relay = 5;
-#define ONE_WIRE_BUS 2
-OneWire oneWire(ONE_WIRE_BUS);
 #include <DHT.h>
 #include <LiquidCrystal_I2C.h>
 #define DHT11_PIN 14
@@ -122,8 +119,6 @@ void setup(){
   // BLYNKDEACT
   timer.setInterval(1000L, myTimerEvent);
   dht11.begin();
-  lcd.begin();
-  lcd.backlight();
   analogReadResolution(10);      // setting resolusi pembacaan ADC menjadi 10 bit
   pinMode(DMSpin, OUTPUT);
   pinMode(indikator, OUTPUT);
@@ -207,7 +202,6 @@ void loop() {
     display.print(F("Mois: "));       
     display.print(soilmoisturepercent);  
     display.print(F("%"));
-    lcd.setCursor(8, 0);
   }
   
   pH = (-0.0233 * ADC) + 12.698;  
