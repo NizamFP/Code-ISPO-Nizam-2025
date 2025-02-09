@@ -12,19 +12,16 @@
 #include <BlynkSimpleEsp32.h>
 
 
-#include <OneWire.h>
 #include <MicroTFLite.h>
 #include "model.h"  // The generated header file from the TFLite model
 #define NUM_CLASSES 22  // Number of crop types
 #include <Adafruit_SSD1306.h> // Memanggil Library OLED SSD1306
-#include <DallasTemperature.h>
 const int relay = 5;
 #define ONE_WIRE_BUS 2
 OneWire oneWire(ONE_WIRE_BUS);
 #include <DHT.h>
 #include <LiquidCrystal_I2C.h>
 #define DHT11_PIN 14
-LiquidCrystal_I2C lcd(0x27, 16, 2);
 DHT dht11(DHT11_PIN, DHT11);
 #include <SPI.h>
 #include <Wire.h>
@@ -63,7 +60,6 @@ float stddev[] = {36.9173338337566, 32.9858827385872, 50.6479305466601, 5.063748
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-// BLYNKDEACT (DELETE THIS STAR WHEN TESTING BLYNK, THIS IS UNACTIVATED TO SAVE MESSAGES)
 
 char ssid[] = "1234";
 char pass[] = "nfp12347";
@@ -214,30 +210,21 @@ void loop() {
     lcd.setCursor(8, 0);
   }
   
-
-/***************************************************************
- *  Setelah anda melakukan proses kalibrasi dengan benar 
- *  dan mencari rumus kalibrasi menggunakan regresi linier excel
- *  maka nilai rumus regresi dibawah ini gantilah dengan nilai
- *  rumus regresi yang anda dapatkan
- ***************************************************************/
-  
-  pH = (-0.0233 * ADC) + 12.698;  // ini adalah rumus regresi linier yang wajib anda ganti!
+  pH = (-0.0233 * ADC) + 12.698;  
     if (pH != lastReading) { 
     lastReading = pH; 
     }
   Serial.print("ADC: ");
-  Serial.println(ADC);             // menampilkan nilai ADC di serial monitor pada baudrate 115200
+  Serial.println(ADC);            
   Serial.print("pH: ");
-  Serial.println(lastReading, 1); // menampilkan nilai pH di serial monitor pada baudrate 115200
+  Serial.println(lastReading, 1); 
 
-  display.setCursor(0,16);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+  display.setCursor(0,16);            
   display.print(F("pH: "));       
   display.print(lastReading,1);  
 
   digitalWrite(DMSpin,HIGH);
   digitalWrite(indikator,LOW);  
-
   
   
   int correctPredictions = 0;
@@ -274,8 +261,7 @@ void loop() {
   //Serial.print(", with probability: ");
   Serial.print("confidence: ");
   Serial.println(bestProbability * 100, 2);
-  //Serial.println("_____________________________________");
-  display.setCursor(0,24);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri     
+  display.setCursor(0,24);            
   display.print(CROP_NAMES[bestIndex]);
   display.print(", ");
   display.print(bestProbability * 100, 2);
