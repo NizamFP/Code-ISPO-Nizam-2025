@@ -21,7 +21,6 @@ const int relay = 5;
 #define DHT11_PIN 14
 DHT dht11(DHT11_PIN, DHT11);
 #include <SPI.h>
-#include <Wire.h>
 #include <Adafruit_GFX.h>
 #define DMSpin  13     // pin output untuk DMS
 #define indikator  2   // pin led indikator built-in ESP32
@@ -40,13 +39,13 @@ const char* CROP_NAMES[NUM_CLASSES] = {
 int ADC;
 float lastReading;
 float pH;
-const int AirValue = 1023;   //you need to replace this value with Value_1
-const int WaterValue = 440;  //you need to replace this value with Value_2
+const int AirValue = 1023;  
+const int WaterValue = 440;  
 const int SensorPin = 15;
 int soilMoistureValue = 0;
 int soilmoisturepercent=0;
 int _moisture,sensor_analog;
-const int sensor_pin = A0;  /* Soil moisture sensor O/P pin */
+const int sensor_pin = A0;  
 int siram=0;
 float testDataset[8];
 constexpr int kTensorArenaSize = 8 * 1024;  // Adjust size based on model requirements
@@ -89,7 +88,6 @@ void myTimerEvent()
   Blynk.virtualWrite(V2, millis() / 1000);
 }
 
-//BLYNKDEACT
 void setup(){
   // Debug console
   Serial.begin(115200);
@@ -110,52 +108,58 @@ void setup(){
     }
     Serial.println("Model initialization done.");
 
-  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
-  // You can also specify server:
-  //Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass, "blynk.cloud", 80);
-  //Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass, IPAddress(192,168,1,100), 8080);
+  WiFi.begin(ssid, pass);
 
-  // Setup a function to be called every second
-  // BLYNKDEACT
+  // Attempt to connect for 10 seconds
+  unsigned long startAttemptTime = millis();
+  while (WiFi.status() != WL_CONNECTED && millis() - startAttemptTime < 10000) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.println("\nConnected to WiFi");
+    Blynk.config(BLYNK_AUTH_TOKEN);
+    Blynk.connect();  // Attempt to connect to Blynk cloud
+  } else {
+    Serial.println("\nWiFi not connected, running in offline mode.");
+  }
   timer.setInterval(1000L, myTimerEvent);
   dht11.begin();
-  analogReadResolution(10);      // setting resolusi pembacaan ADC menjadi 10 bit
+  analogReadResolution(10);    
   pinMode(DMSpin, OUTPUT);
   pinMode(indikator, OUTPUT);
-  digitalWrite(DMSpin,HIGH);     // non-aktifkan DMS
+  digitalWrite(DMSpin,HIGH);    
   pinMode(relay, OUTPUT);
 
 }
 
-unsigned long previousMillis = 0; // Declare previousMillis at the top
-const long interval = 3000;       // Set your desired interval (in milliseconds)
+unsigned long previousMillis = 0; 
+const long interval = 3000;      
 
 void loop() {
   
-  digitalWrite(DMSpin,LOW);      // aktifkan DMS
-  digitalWrite(indikator, HIGH); // led indikator built-in ESP32 menyala
-  delay(1*500);                // wait DMS capture data
+  digitalWrite(DMSpin,LOW);     
+  digitalWrite(indikator, HIGH); 
+  delay(1*500);           
   ADC = analogRead(adcPin); 
 
-  display.clearDisplay();                 //Membersihkan tampilan
-  display.setTextSize(1);                 //Ukuran tulisan
+  display.clearDisplay();              
+  display.setTextSize(1);              
   display.setTextColor(SSD1306_WHITE);
-  // BLYNKDEACT
   
-  Blynk.run();
-  timer.run();
   
   float humi = dht11.readHumidity();
   float tempC = dht11.readTemperature();
   if (isnan(humi) || isnan(tempC)) {
-    Serial.println("Semsor tidak terbaca!");
+    Serial.println("Sensor tidak terbaca!");
   }
   //Serial.print("Temperature: ");
   Serial.print("temperature: ");
   Serial.println(tempC);
   //Serial.println(" °C");
 
-  display.setCursor(0,0);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+  display.setCursor(0,0);             
   display.print(F("Temp: "));
   display.print(tempC, 1);  
   display.print("C");
@@ -165,14 +169,13 @@ void loop() {
   Serial.println(humi, 0);
   //Serial.println("%");
 
-  display.setCursor(74,0);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+  display.setCursor(74,0);            
   display.print(F("Humi: "));       
   display.print(humi, 0);  
   display.print(F("%"));
 
   soilMoistureValue = analogRead(sensor_pin);
 
-  //soilMoistureValue = analogRead(SensorPin);  //put Sensor insert into soil
   Serial.print("moisturevalue: ");
   Serial.println(soilMoistureValue);
   soilmoisturepercent = map(soilMoistureValue, AirValue, WaterValue, 0, 100);
@@ -180,7 +183,7 @@ void loop() {
   if(soilmoisturepercent > 100) {
     Serial.print("Moisture: ");
     Serial.println("100 %");
-    display.setCursor(0,8);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+    display.setCursor(0,8);               
     display.print(F("Mois: "));       
     display.print("100");  
     display.print(F("%"));
@@ -189,7 +192,7 @@ void loop() {
   else if(soilmoisturepercent <0) {
     Serial.print("Moisture: ");
     Serial.println("0%");
-    display.setCursor(0,8);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+    display.setCursor(0,8);                
     display.print(F("Mois: "));       
     display.print("0");  
     display.print(F("%"));
@@ -197,8 +200,8 @@ void loop() {
   else if (soilmoisturepercent >=0 && soilmoisturepercent <= 100) {
     Serial.print("moisture: ");
     Serial.println(soilmoisturepercent);
-    //Serial.println("%");
-    display.setCursor(0,8);                 // Koordinat awal tulisan (x,y) dimulai dari atas-kiri
+    Serial.println("%");
+    display.setCursor(0,8);               
     display.print(F("Mois: "));       
     display.print(soilmoisturepercent);  
     display.print(F("%"));
@@ -260,12 +263,20 @@ void loop() {
   display.print(", ");
   display.print(bestProbability * 100, 2);
   display.display();
-  Blynk.virtualWrite(V10, tempC);
-  Blynk.virtualWrite(V11, humi);
-  Blynk.virtualWrite(V12, soilmoisturepercent);
-  Blynk.virtualWrite(V13, lastReading);
-  Blynk.virtualWrite(V14, CROP_NAMES[bestIndex]);
-  Blynk.virtualWrite(V15, bestProbability * 100);
+  if (WiFi.status() == WL_CONNECTED) {
+    Blynk.run();
+    timer.run();
+
+    // Upload data only if connected
+    Blynk.virtualWrite(V10, tempC);
+    Blynk.virtualWrite(V11, humi);
+    Blynk.virtualWrite(V12, soilmoisturepercent);
+    Blynk.virtualWrite(V13, lastReading);
+    Blynk.virtualWrite(V14, CROP_NAMES[bestIndex]);
+    Blynk.virtualWrite(V15, bestProbability * 100);
+  } else {
+    Serial.println("Offline mode: Skipping cloud updates.");
+  }
 
   delay(5000);
   
