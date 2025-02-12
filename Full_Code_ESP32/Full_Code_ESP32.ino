@@ -118,6 +118,7 @@ void setup(){
   }
 
   if (WiFi.status() == WL_CONNECTED) {
+    Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
     Serial.println("\nConnected to WiFi");
     Blynk.config(BLYNK_AUTH_TOKEN);
     Blynk.connect();  // Attempt to connect to Blynk cloud
@@ -199,7 +200,7 @@ void loop() {
   }
   else if (soilmoisturepercent >=0 && soilmoisturepercent <= 100) {
     Serial.print("moisture: ");
-    Serial.println(soilmoisturepercent);
+    Serial.print(soilmoisturepercent);
     Serial.println("%");
     display.setCursor(0,8);               
     display.print(F("Mois: "));       
