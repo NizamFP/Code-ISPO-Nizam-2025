@@ -1,0 +1,1616 @@
+temperature: 27.60
+humidity: 89
+moisturevalue: 1023
+moisture: 0
+ADC: 177
+pH: 8.6
+orange
+confidence: 59.77
+temperature: 27.60
+humidity: 89
+moisturevalue: 1023
+moisture: 0
+ADC: 179
+pH: 8.5
+orange
+confidence: 59.77
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 176
+pH: 8.6
+orange
+confidence: 57.42
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 176
+pH: 8.6
+orange
+confidence: 58.59
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 176
+pH: 8.6
+orange
+confidence: 58.59
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 175
+pH: 8.6
+orange
+confidence: 58.59
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 176
+pH: 8.6
+orange
+confidence: 60.94
+temperature: 27.60
+humidity: 88
+moisturevalue: 1023
+moisture: 0
+ADC: 178
+pH: 8.6
+orange
+confidence: 58.59
+temperature: 27.60
+humidity: 88
+moisturevalue: 319
+Moisture: 100 %
+ADC: 260
+pH: 6.6
+orange
+confidence: 58.59
+temperature: 27.60
+humidity: 88
+moisturevalue: 249
+Moisture: 100 %
+ADC: 230
+pH: 7.3
+coconut
+confidence: 90.23
+temperature: 27.60
+humidity: 87
+moisturevalue: 257
+Moisture: 100 %
+ADC: 231
+pH: 7.3
+coconut
+confidence: 58.59
+temperature: 27.60
+humidity: 87
+moisturevalue: 267
+Moisture: 100 %
+ADC: 242
+pH: 7.1
+coconut
+confidence: 59.77
+temperature: 27.60
+humidity: 86
+moisturevalue: 260
+Moisture: 100 %
+ADC: 249
+pH: 6.9
+coconut
+confidence: 73.83
+temperature: 27.60
+humidity: 86
+moisturevalue: 274
+Moisture: 100 %
+ADC: 269
+pH: 6.4
+coconut
+confidence: 82.03
+temperature: 27.60
+humidity: 86
+moisturevalue: 281
+Moisture: 100 %
+ADC: 275
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 86
+moisturevalue: 282
+Moisture: 100 %
+ADC: 280
+pH: 6.2
+coconut
+confidence: 93.75
+temperature: 27.60
+humidity: 86
+moisturevalue: 296
+Moisture: 100 %
+ADC: 285
+pH: 6.1
+coconut
+confidence: 94.53
+temperature: 27.60
+humidity: 86
+moisturevalue: 284
+Moisture: 100 %
+ADC: 289
+pH: 6.0
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 86
+moisturevalue: 290
+Moisture: 100 %
+ADC: 292
+pH: 5.9
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 86
+moisturevalue: 292
+Moisture: 100 %
+ADC: 295
+pH: 5.8
+coconut
+confidence: 95.31
+temperature: 27.60
+humidity: 86
+moisturevalue: 296
+Moisture: 100 %
+ADC: 297
+pH: 5.8
+coconut
+confidence: 95.31
+temperature: 27.60
+humidity: 86
+moisturevalue: 296
+Moisture: 100 %
+ADC: 300
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 85
+moisturevalue: 296
+Moisture: 100 %
+ADC: 302
+pH: 5.7
+coconut
+confidence: 95.31
+temperature: 27.60
+humidity: 85
+moisturevalue: 297
+Moisture: 100 %
+ADC: 302
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 85
+moisturevalue: 296
+Moisture: 100 %
+ADC: 305
+pH: 5.6
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 85
+moisturevalue: 294
+Moisture: 100 %
+ADC: 305
+pH: 5.6
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 85
+moisturevalue: 307
+Moisture: 100 %
+ADC: 307
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.60
+humidity: 85
+moisturevalue: 300
+Moisture: 100 %
+ADC: 309
+pH: 5.5
+coconut
+confidence: 94.14
+temperature: 27.60
+humidity: 85
+moisturevalue: 301
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.14
+temperature: 27.60
+humidity: 85
+moisturevalue: 300
+Moisture: 100 %
+ADC: 311
+pH: 5.5
+coconut
+confidence: 94.14
+temperature: 27.60
+humidity: 85
+moisturevalue: 286
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 94.14
+temperature: 27.60
+humidity: 85
+moisturevalue: 284
+Moisture: 100 %
+ADC: 246
+pH: 7.0
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 278
+Moisture: 100 %
+ADC: 255
+pH: 6.8
+coconut
+confidence: 77.73
+temperature: 27.60
+humidity: 85
+moisturevalue: 325
+Moisture: 100 %
+ADC: 207
+pH: 7.9
+coconut
+confidence: 85.55
+temperature: 27.60
+humidity: 85
+moisturevalue: 323
+Moisture: 100 %
+ADC: 188
+pH: 8.3
+orange
+confidence: 49.61
+temperature: 27.60
+humidity: 85
+moisturevalue: 332
+Moisture: 100 %
+ADC: 180
+pH: 8.5
+orange
+confidence: 58.98
+temperature: 27.60
+humidity: 85
+moisturevalue: 325
+Moisture: 100 %
+ADC: 208
+pH: 7.9
+orange
+confidence: 61.72
+temperature: 27.60
+humidity: 85
+moisturevalue: 471
+moisture: 94
+ADC: 214
+pH: 7.7
+orange
+confidence: 46.88
+temperature: 27.60
+humidity: 85
+moisturevalue: 565
+moisture: 78
+ADC: 220
+pH: 7.6
+orange
+confidence: 41.02
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 222
+pH: 7.5
+coconut
+confidence: 38.28
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 224
+pH: 7.5
+coconut
+confidence: 41.80
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 228
+pH: 7.4
+coconut
+confidence: 44.14
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 229
+pH: 7.4
+coconut
+confidence: 52.34
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 220
+pH: 7.6
+coconut
+confidence: 53.52
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 221
+pH: 7.5
+coconut
+confidence: 38.28
+temperature: 27.60
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 222
+pH: 7.5
+coconut
+confidence: 40.63
+temperature: 27.60
+humidity: 85
+moisturevalue: 343
+Moisture: 100 %
+ADC: 237
+pH: 7.2
+coconut
+confidence: 41.80
+temperature: 27.60
+humidity: 85
+moisturevalue: 367
+Moisture: 100 %
+ADC: 261
+pH: 6.6
+coconut
+confidence: 68.36
+temperature: 27.60
+humidity: 85
+moisturevalue: 331
+Moisture: 100 %
+ADC: 240
+pH: 7.1
+coconut
+confidence: 88.67
+temperature: 27.60
+humidity: 85
+moisturevalue: 336
+Moisture: 100 %
+ADC: 247
+pH: 6.9
+coconut
+confidence: 71.09
+temperature: 27.60
+humidity: 85
+moisturevalue: 338
+Moisture: 100 %
+ADC: 254
+pH: 6.8
+coconut
+confidence: 79.30
+temperature: 27.60
+humidity: 85
+moisturevalue: 339
+Moisture: 100 %
+ADC: 252
+pH: 6.8
+coconut
+confidence: 85.16
+temperature: 27.60
+humidity: 85
+moisturevalue: 340
+Moisture: 100 %
+ADC: 251
+pH: 6.8
+coconut
+confidence: 83.98
+temperature: 27.60
+humidity: 85
+moisturevalue: 343
+Moisture: 100 %
+ADC: 255
+pH: 6.8
+coconut
+confidence: 82.81
+temperature: 27.60
+humidity: 85
+moisturevalue: 340
+Moisture: 100 %
+ADC: 258
+pH: 6.7
+coconut
+confidence: 85.55
+temperature: 27.60
+humidity: 85
+moisturevalue: 343
+Moisture: 100 %
+ADC: 264
+pH: 6.5
+coconut
+confidence: 87.50
+temperature: 27.60
+humidity: 85
+moisturevalue: 340
+Moisture: 100 %
+ADC: 260
+pH: 6.6
+coconut
+confidence: 90.62
+temperature: 27.60
+humidity: 85
+moisturevalue: 301
+Moisture: 100 %
+ADC: 232
+pH: 7.3
+coconut
+confidence: 88.67
+temperature: 27.60
+humidity: 85
+moisturevalue: 317
+Moisture: 100 %
+ADC: 251
+pH: 6.8
+coconut
+confidence: 61.33
+temperature: 27.60
+humidity: 85
+moisturevalue: 320
+Moisture: 100 %
+ADC: 254
+pH: 6.8
+coconut
+confidence: 82.81
+temperature: 27.60
+humidity: 85
+moisturevalue: 328
+Moisture: 100 %
+ADC: 259
+pH: 6.7
+coconut
+confidence: 85.16
+temperature: 27.60
+humidity: 85
+moisturevalue: 332
+Moisture: 100 %
+ADC: 263
+pH: 6.6
+coconut
+confidence: 87.89
+temperature: 27.60
+humidity: 85
+moisturevalue: 329
+Moisture: 100 %
+ADC: 264
+pH: 6.5
+coconut
+confidence: 89.45
+temperature: 27.60
+humidity: 85
+moisturevalue: 337
+Moisture: 100 %
+ADC: 267
+pH: 6.5
+coconut
+confidence: 90.62
+temperature: 27.60
+humidity: 85
+moisturevalue: 336
+Moisture: 100 %
+ADC: 268
+pH: 6.5
+coconut
+confidence: 91.41
+temperature: 27.60
+humidity: 85
+moisturevalue: 333
+Moisture: 100 %
+ADC: 267
+pH: 6.5
+coconut
+confidence: 91.41
+temperature: 27.60
+humidity: 85
+moisturevalue: 333
+Moisture: 100 %
+ADC: 269
+pH: 6.4
+coconut
+confidence: 91.41
+temperature: 27.60
+humidity: 85
+moisturevalue: 335
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 92.19
+temperature: 27.60
+humidity: 85
+moisturevalue: 335
+Moisture: 100 %
+ADC: 269
+pH: 6.4
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 336
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 92.19
+temperature: 27.60
+humidity: 85
+moisturevalue: 334
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 338
+Moisture: 100 %
+ADC: 270
+pH: 6.4
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 333
+Moisture: 100 %
+ADC: 273
+pH: 6.3
+coconut
+confidence: 92.19
+temperature: 27.60
+humidity: 85
+moisturevalue: 334
+Moisture: 100 %
+ADC: 271
+pH: 6.4
+coconut
+confidence: 92.97
+temperature: 27.60
+humidity: 85
+moisturevalue: 343
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 92.19
+temperature: 27.60
+humidity: 85
+moisturevalue: 336
+Moisture: 100 %
+ADC: 276
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 343
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 93.36
+temperature: 27.60
+humidity: 85
+moisturevalue: 335
+Moisture: 100 %
+ADC: 275
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 340
+Moisture: 100 %
+ADC: 277
+pH: 6.2
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 339
+Moisture: 100 %
+ADC: 276
+pH: 6.3
+coconut
+confidence: 93.36
+temperature: 27.60
+humidity: 85
+moisturevalue: 347
+Moisture: 100 %
+ADC: 274
+pH: 6.3
+coconut
+confidence: 93.36
+temperature: 27.60
+humidity: 85
+moisturevalue: 333
+Moisture: 100 %
+ADC: 190
+pH: 8.3
+coconut
+confidence: 92.58
+temperature: 27.60
+humidity: 85
+moisturevalue: 348
+Moisture: 100 %
+ADC: 189
+pH: 8.3
+orange
+confidence: 59.38
+temperature: 27.60
+humidity: 85
+moisturevalue: 344
+Moisture: 100 %
+ADC: 192
+pH: 8.2
+orange
+confidence: 59.38
+temperature: 27.60
+humidity: 85
+moisturevalue: 350
+Moisture: 100 %
+ADC: 192
+pH: 8.2
+orange
+confidence: 59.38
+temperature: 27.60
+humidity: 85
+moisturevalue: 361
+Moisture: 100 %
+ADC: 179
+pH: 8.5
+orange
+confidence: 59.38
+temperature: 27.60
+humidity: 85
+moisturevalue: 354
+Moisture: 100 %
+ADC: 181
+pH: 8.5
+orange
+confidence: 59.38
+temperature: 27.60
+humidity: 85
+moisturevalue: 351
+Moisture: 100 %
+ADC: 193
+pH: 8.2
+orange
+confidence: 60.94
+temperature: 27.20
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 195
+pH: 8.2
+orange
+confidence: 58.98
+temperature: 27.20
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 196
+pH: 8.1
+orange
+confidence: 56.64
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 195
+pH: 8.2
+orange
+confidence: 56.25
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 196
+pH: 8.1
+orange
+confidence: 56.64
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 200
+pH: 8.0
+orange
+confidence: 56.25
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 197
+pH: 8.1
+orange
+confidence: 53.91
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 198
+pH: 8.1
+orange
+confidence: 56.25
+temperature: 27.10
+humidity: 85
+moisturevalue: 1023
+moisture: 0
+ADC: 203
+pH: 8.0
+orange
+confidence: 55.86
+temperature: 27.10
+humidity: 86
+moisturevalue: 962
+moisture: 10
+ADC: 224
+pH: 7.5
+orange
+confidence: 50.39
+temperature: 27.10
+humidity: 86
+moisturevalue: 292
+Moisture: 100 %
+ADC: 247
+pH: 6.9
+coconut
+confidence: 48.05
+temperature: 27.10
+humidity: 86
+moisturevalue: 288
+Moisture: 100 %
+ADC: 250
+pH: 6.9
+coconut
+confidence: 80.08
+temperature: 27.10
+humidity: 86
+moisturevalue: 292
+Moisture: 100 %
+ADC: 252
+pH: 6.8
+coconut
+confidence: 82.03
+temperature: 27.10
+humidity: 86
+moisturevalue: 297
+Moisture: 100 %
+ADC: 253
+pH: 6.8
+coconut
+confidence: 83.59
+temperature: 27.10
+humidity: 86
+moisturevalue: 296
+Moisture: 100 %
+ADC: 260
+pH: 6.6
+coconut
+confidence: 84.77
+temperature: 27.10
+humidity: 86
+moisturevalue: 297
+Moisture: 100 %
+ADC: 261
+pH: 6.6
+coconut
+confidence: 89.06
+temperature: 27.10
+humidity: 86
+moisturevalue: 299
+Moisture: 100 %
+ADC: 263
+pH: 6.6
+coconut
+confidence: 89.06
+temperature: 27.10
+humidity: 86
+moisturevalue: 298
+Moisture: 100 %
+ADC: 262
+pH: 6.6
+coconut
+confidence: 90.23
+temperature: 27.10
+humidity: 86
+moisturevalue: 296
+Moisture: 100 %
+ADC: 263
+pH: 6.6
+coconut
+confidence: 89.45
+temperature: 27.10
+humidity: 86
+moisturevalue: 304
+Moisture: 100 %
+ADC: 266
+pH: 6.5
+coconut
+confidence: 90.23
+temperature: 27.10
+humidity: 86
+moisturevalue: 298
+Moisture: 100 %
+ADC: 265
+pH: 6.5
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 300
+Moisture: 100 %
+ADC: 267
+pH: 6.5
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 300
+Moisture: 100 %
+ADC: 267
+pH: 6.5
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 301
+Moisture: 100 %
+ADC: 267
+pH: 6.5
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 293
+Moisture: 100 %
+ADC: 266
+pH: 6.5
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 308
+Moisture: 100 %
+ADC: 274
+pH: 6.3
+coconut
+confidence: 91.02
+temperature: 27.10
+humidity: 86
+moisturevalue: 302
+Moisture: 100 %
+ADC: 269
+pH: 6.4
+coconut
+confidence: 92.97
+temperature: 27.10
+humidity: 86
+moisturevalue: 305
+Moisture: 100 %
+ADC: 273
+pH: 6.3
+coconut
+confidence: 91.80
+temperature: 27.10
+humidity: 86
+moisturevalue: 303
+Moisture: 100 %
+ADC: 273
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.10
+humidity: 86
+moisturevalue: 303
+Moisture: 100 %
+ADC: 274
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.10
+humidity: 86
+moisturevalue: 300
+Moisture: 100 %
+ADC: 272
+pH: 6.4
+coconut
+confidence: 92.97
+temperature: 27.10
+humidity: 86
+moisturevalue: 307
+Moisture: 100 %
+ADC: 273
+pH: 6.3
+coconut
+confidence: 92.58
+temperature: 27.10
+humidity: 86
+moisturevalue: 328
+Moisture: 100 %
+ADC: 192
+pH: 8.2
+coconut
+confidence: 92.58
+temperature: 27.10
+humidity: 86
+moisturevalue: 340
+Moisture: 100 %
+ADC: 182
+pH: 8.5
+orange
+confidence: 57.03
+temperature: 27.10
+humidity: 86
+moisturevalue: 352
+Moisture: 100 %
+ADC: 174
+pH: 8.6
+orange
+confidence: 57.42
+temperature: 27.10
+humidity: 86
+moisturevalue: 330
+Moisture: 100 %
+ADC: 175
+pH: 8.6
+orange
+confidence: 56.25
+temperature: 27.10
+humidity: 86
+moisturevalue: 340
+Moisture: 100 %
+ADC: 198
+pH: 8.1
+orange
+confidence: 58.59
+temperature: 27.10
+humidity: 86
+moisturevalue: 326
+Moisture: 100 %
+ADC: 174
+pH: 8.6
+orange
+confidence: 52.73
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 175
+pH: 8.6
+orange
+confidence: 56.25
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 176
+pH: 8.6
+orange
+confidence: 58.59
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 178
+pH: 8.6
+orange
+confidence: 58.20
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 180
+pH: 8.5
+orange
+confidence: 56.64
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 180
+pH: 8.5
+orange
+confidence: 59.38
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 181
+pH: 8.5
+orange
+confidence: 59.38
+temperature: 27.10
+humidity: 86
+moisturevalue: 1023
+moisture: 0
+ADC: 183
+pH: 8.4
+orange
+confidence: 58.98
+temperature: 27.10
+humidity: 87
+moisturevalue: 905
+moisture: 20
+ADC: 196
+pH: 8.1
+orange
+confidence: 58.59
+temperature: 27.10
+humidity: 87
+moisturevalue: 892
+moisture: 22
+ADC: 205
+pH: 7.9
+orange
+confidence: 54.69
+temperature: 27.10
+humidity: 86
+moisturevalue: 660
+moisture: 62
+ADC: 254
+pH: 6.8
+orange
+confidence: 47.66
+temperature: 27.10
+humidity: 86
+moisturevalue: 594
+moisture: 73
+ADC: 283
+pH: 6.1
+coconut
+confidence: 85.16
+temperature: 27.10
+humidity: 87
+moisturevalue: 586
+moisture: 74
+ADC: 292
+pH: 5.9
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 582
+moisture: 75
+ADC: 296
+pH: 5.8
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 572
+moisture: 77
+ADC: 299
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 582
+moisture: 75
+ADC: 300
+pH: 5.7
+coconut
+confidence: 95.31
+temperature: 27.10
+humidity: 87
+moisturevalue: 580
+moisture: 75
+ADC: 302
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 572
+moisture: 77
+ADC: 304
+pH: 5.6
+coconut
+confidence: 95.31
+temperature: 27.10
+humidity: 87
+moisturevalue: 579
+moisture: 76
+ADC: 304
+pH: 5.6
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 580
+moisture: 75
+ADC: 305
+pH: 5.6
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 573
+moisture: 77
+ADC: 306
+pH: 5.6
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 583
+moisture: 75
+ADC: 307
+pH: 5.5
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 579
+moisture: 76
+ADC: 321
+pH: 5.2
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 588
+moisture: 74
+ADC: 243
+pH: 7.0
+coconut
+confidence: 93.75
+temperature: 27.10
+humidity: 86
+moisturevalue: 584
+moisture: 75
+ADC: 207
+pH: 7.9
+coconut
+confidence: 77.73
+temperature: 27.10
+humidity: 86
+moisturevalue: 584
+moisture: 75
+ADC: 189
+pH: 8.3
+orange
+confidence: 47.66
+temperature: 27.10
+humidity: 86
+moisturevalue: 586
+moisture: 74
+ADC: 187
+pH: 8.3
+orange
+confidence: 57.03
+temperature: 27.10
+humidity: 86
+moisturevalue: 586
+moisture: 74
+ADC: 204
+pH: 7.9
+orange
+confidence: 57.03
+temperature: 27.10
+humidity: 87
+moisturevalue: 636
+moisture: 66
+ADC: 210
+pH: 7.8
+orange
+confidence: 50.39
+temperature: 27.10
+humidity: 87
+moisturevalue: 833
+moisture: 32
+ADC: 212
+pH: 7.8
+orange
+confidence: 42.19
+temperature: 27.10
+humidity: 87
+moisturevalue: 1023
+moisture: 0
+ADC: 214
+pH: 7.7
+orange
+confidence: 41.02
+temperature: 27.10
+humidity: 87
+moisturevalue: 1023
+moisture: 0
+ADC: 217
+pH: 7.6
+orange
+confidence: 37.89
+temperature: 27.10
+humidity: 87
+moisturevalue: 1023
+moisture: 0
+ADC: 219
+pH: 7.6
+coconut
+confidence: 35.94
+temperature: 27.10
+humidity: 87
+moisturevalue: 1023
+moisture: 0
+ADC: 220
+pH: 7.6
+coconut
+confidence: 39.45
+temperature: 27.10
+humidity: 87
+moisturevalue: 1023
+moisture: 0
+ADC: 221
+pH: 7.5
+coconut
+confidence: 41.41
+temperature: 27.10
+humidity: 87
+moisturevalue: 379
+Moisture: 100 %
+ADC: 292
+pH: 5.9
+coconut
+confidence: 45.31
+temperature: 27.10
+humidity: 87
+moisturevalue: 326
+Moisture: 100 %
+ADC: 290
+pH: 5.9
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 335
+Moisture: 100 %
+ADC: 296
+pH: 5.8
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 331
+Moisture: 100 %
+ADC: 298
+pH: 5.8
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 329
+Moisture: 100 %
+ADC: 300
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 324
+Moisture: 100 %
+ADC: 302
+pH: 5.7
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 333
+Moisture: 100 %
+ADC: 302
+pH: 5.7
+coconut
+confidence: 95.31
+temperature: 27.10
+humidity: 87
+moisturevalue: 337
+Moisture: 100 %
+ADC: 305
+pH: 5.6
+coconut
+confidence: 95.31
+temperature: 27.10
+humidity: 87
+moisturevalue: 340
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 333
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 340
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 336
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 333
+Moisture: 100 %
+ADC: 309
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 327
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 336
+Moisture: 100 %
+ADC: 311
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 340
+Moisture: 100 %
+ADC: 313
+pH: 5.4
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 330
+Moisture: 100 %
+ADC: 314
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 338
+Moisture: 100 %
+ADC: 313
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 331
+Moisture: 100 %
+ADC: 314
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 338
+Moisture: 100 %
+ADC: 314
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 340
+Moisture: 100 %
+ADC: 315
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 335
+Moisture: 100 %
+ADC: 315
+pH: 5.4
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 335
+Moisture: 100 %
+ADC: 316
+pH: 5.3
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 333
+Moisture: 100 %
+ADC: 316
+pH: 5.3
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 338
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 340
+Moisture: 100 %
+ADC: 304
+pH: 5.6
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 339
+Moisture: 100 %
+ADC: 308
+pH: 5.5
+coconut
+confidence: 94.53
+temperature: 27.10
+humidity: 87
+moisturevalue: 344
+Moisture: 100 %
+ADC: 309
+pH: 5.5
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 349
+Moisture: 100 %
+ADC: 314
+pH: 5.4
+coconut
+confidence: 94.92
+temperature: 27.10
+humidity: 87
+moisturevalue: 348
+Moisture: 100 %
+ADC: 316
+pH: 5.3
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 349
+Moisture: 100 %
+ADC: 316
+pH: 5.3
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 344
+Moisture: 100 %
+ADC: 322
+pH: 5.2
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 87
+moisturevalue: 344
+Moisture: 100 %
+ADC: 320
+pH: 5.2
+coconut
+confidence: 92.97
+temperature: 27.10
+humidity: 88
+moisturevalue: 351
+Moisture: 100 %
+ADC: 318
+pH: 5.3
+coconut
+confidence: 93.75
+temperature: 27.10
+humidity: 88
+moisturevalue: 354
+Moisture: 100 %
+ADC: 320
+pH: 5.2
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 88
+moisturevalue: 345
+Moisture: 100 %
+ADC: 321
+pH: 5.2
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 88
+moisturevalue: 348
+Moisture: 100 %
+ADC: 322
+pH: 5.2
+coconut
+confidence: 93.75
+temperature: 27.10
+humidity: 88
+moisturevalue: 347
+Moisture: 100 %
+ADC: 321
+pH: 5.2
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 88
+moisturevalue: 365
+Moisture: 100 %
+ADC: 322
+pH: 5.2
+coconut
+confidence: 93.75
+temperature: 27.10
+humidity: 88
+moisturevalue: 351
+Moisture: 100 %
+ADC: 324
+pH: 5.1
+coconut
+confidence: 94.14
+temperature: 27.10
+humidity: 88
+moisturevalue: 346
+Moisture: 100 %
+ADC: 327
+pH: 5.1
+coconut
+confidence: 93.75
+temperature: 26.70
+humidity: 89
+moisturevalue: 1023
+moisture: 0
+ADC: 220
+pH: 7.6
+kidneybeans
+confidence: 91.02
+temperature: 26.70
+humidity: 89
+moisturevalue: 1023
+moisture: 0
+ADC: 220
+pH: 7.6
+coconut
+confidence: 44.92
